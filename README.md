@@ -22,6 +22,20 @@ Türkçe sürüme ayrıca uygulamalı framework rehberleri eklendi:
 | [TensorFlow ve Keras ile LLM Uygulamaları](guides/tensorflow-keras-llm.md) | KerasHub, TensorFlow veri hattı, üretim, LoRA ve model kaydetme |
 | [PyTorch mu TensorFlow mu?](guides/pytorch-vs-tensorflow.md) | Framework karşılaştırması, seçim ağacı ve ortak proje planı |
 
+### Ayrıntılı Türkçe dersler
+
+| Ders | İçerik |
+|---|---|
+| [LLM Temelleri](docs/llm-temelleri.md) | Matematik, Python, sinir ağları, NLP, attention ve değerlendirme |
+| [LLM Bilim İnsanı Rotası](docs/llm-bilim-insani.md) | Transformer, veri, LoRA/QLoRA, tercih hizalama, değerlendirme ve kuantizasyon |
+| [LLM Mühendisi Rotası](docs/llm-muhendisi.md) | RAG, ajanlar, çıkarım optimizasyonu, dağıtım, gözlemlenebilirlik ve güvenlik |
+
+### Çalıştırılabilir örnekler
+
+- [PyTorch metin üretimi](examples/pytorch_text_generation.py)
+- [TensorFlow/KerasHub metin üretimi](examples/tensorflow_keras_text_generation.py)
+- [Kurulum ve çalıştırma rehberi](examples/README.md)
+
 ## Hızlı başlangıç
 
 Python 3.10 veya daha yeni bir sürüm ve mümkünse GPU kullanın. Her proje için ayrı sanal ortam oluşturun:
@@ -120,5 +134,4 @@ Ardından seçtiğiniz rehberdeki paketleri kurun. Büyük modeller ciddi miktar
 ## Kaynak ve lisans
 
 Bu çalışma, Maxime Labonne tarafından yayımlanan [mlabonne/llm-course](https://github.com/mlabonne/llm-course) deposunu temel alır. Özgün proje ve bu türetilmiş çalışma [Apache License 2.0](LICENSE) koşulları altında sunulur. Bağlantılı makale, model, veri kümesi ve notebookların kendi lisansları ayrıca geçerlidir.
-
 
