@@ -36,6 +36,10 @@ Türkçe sürüme ayrıca uygulamalı framework rehberleri eklendi:
 - [TensorFlow/KerasHub metin üretimi](examples/tensorflow_keras_text_generation.py)
 - [Kurulum ve çalıştırma rehberi](examples/README.md)
 
+### Uygulamalı portföy projesi
+
+[Türkçe Duygu Analizi: PyTorch ve TensorFlow/Keras](projects/framework-comparison/README.md), aynı veri ve ortak metriklerle iki frameworkü karşılaştıran çalıştırılabilir bir mini projedir. Ortak veri hazırlama kodu, testler, örnek Türkçe veri kümesi ve deney raporu şablonu içerir.
+
 ## Hızlı başlangıç
 
 Python 3.10 veya daha yeni bir sürüm ve mümkünse GPU kullanın. Her proje için ayrı sanal ortam oluşturun:
